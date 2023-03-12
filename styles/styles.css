@@ -1,10 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    line-height: 1.5;
     font-size: 16px;
-    line-height: 1.5em;
-    background: #FFFFFF;
-    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -12,8 +10,6 @@ ul {
 }
 
 .headers{
-    width: 264px;
-    height: 24px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -32,55 +28,34 @@ ul {
 }
 
 .logo-second {
-    width: 71px;
-    height: 21px;
-
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
     color: #2E2F42;
 }
 
 .box-addreess {
-    position: absolute;
-    width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
     color: #434455;   
+    letter-spacing: normal;
+    text-decoration: none;
 }
 
 .box-address {
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
-    top: 24px;
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
     color: #434455;
+    letter-spacing: normal;
+    text-decoration: none;
 }
 
-.category {
-    width: 66px;
-    height: 24px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
+.nav-link {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #2E2F42;
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+
+.battons {   
+    background: #404BBF;
+
 }
