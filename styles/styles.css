@@ -1,3 +1,7 @@
+:root {
+    --brand-color:#E5E5E5;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
@@ -49,9 +53,6 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     color: #2E2F42;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 
