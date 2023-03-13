@@ -1,0 +1,77 @@
+:root {
+    --brand-color: #E5E5E5;
+    --brand-color: #2E2F42;
+    --brand-color: #F4F4FD;
+    --brand-color: #2E2F42;
+}
+
+body {
+    font-family: "Roboto";
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.option-title{
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--brand-color NAVY BLUE);
+}
+
+.logo-first {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    color: var(--brand-color);
+}
+
+.logo-second {
+    color: #2E2F42;
+}
+
+.font-addreess {
+    font-style: normal;
+    color: var(--brand-color);   
+    letter-spacing: normal;
+    text-decoration: none;
+}
+
+.font-address {
+    font-style: normal;
+    color: var(--brand-color);
+    letter-spacing: normal;
+    text-decoration: none;   
+}
+
+.nav-link {
+    line-height: 1.5;
+    color: var(--brand-color);
+}
+
+
+.battons {   
+    background: #404BBF;
+
+}
+
+.hero-title {
+    color: var(--brand-color);
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.info-one {
+    font-size: 16px;
+    line-height: 1.5;  
+    color: var(--brand-color #434455);
+}
+
+.info-second {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--brand-color #434455);
+}
