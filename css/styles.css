@@ -1,20 +1,22 @@
 :root {
     --brand-color: #E5E5E5;
     --brand-color: #2E2F42;
-    --brand-color: #F4F4FD;
+    --brand-color: #4D5AE5;
     --brand-color: #2E2F42;
 }
 
 body {
-    font-family: "Roboto";
-    line-height: 1.5;
     font-size: 16px;
-    background-color: #FFFFFF;
+    font-weight: 400px;
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
 }
 
-ul {
+.list {
     list-style-type: none;
 }
+
+
 
 .option-title{
     font-size: 20px;
@@ -23,38 +25,55 @@ ul {
 }
 
 .logo-first {
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
-    color: var(--brand-color);
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
 }
 
 .logo-second {
     color: #2E2F42;
-}
-
-.font-addreess {
-    font-style: normal;
-    color: var(--brand-color);   
-    letter-spacing: normal;
     text-decoration: none;
 }
 
-.font-address {
+.addreess-link {
+    font-style: normal;
+    color: var(--brand-color);   
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.5;
+}
+
+.address-link {
     font-style: normal;
     color: var(--brand-color);
-    letter-spacing: normal;
     text-decoration: none;   
+    list-style: none;
+    line-height: 1.5;
 }
 
 .nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
     line-height: 1.5;
-    color: var(--brand-color);
+    color: #2E2F42;
+    text-decoration: none;
 }
 
 
 .battons {   
     background: #404BBF;
+    cursor: pointer;
 
 }
 
@@ -74,4 +93,23 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     color: var(--brand-color #434455);
+}
+
+.buttun {
+    background: #4D5AE5;
+    cursor: pointer;
+
+}
+
+button {
+    cursor: pointer;
+    background: #F4F4FD;
+}
+
+.hero-title {
+   color: #2E2F42;
+}
+
+.page-title {
+    color: #2E2F42;
 }
