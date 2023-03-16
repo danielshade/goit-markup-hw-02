@@ -1,13 +1,13 @@
 :root {
-    --brand-color: #E5E5E5;
-    --brand-color: #2E2F42;
-    --brand-color: #4D5AE5;
-    --brand-color: #2E2F42;
+    --main-color: #E5E5E5;
+    --second-color: #2E2F42;
+    --third-color: #4D5AE5;
+    --fourth-color: #2E2F42;
+    --adress-colour: #434455;
 }
 
 body {
     font-size: 16px;
-    font-weight: 400px;
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
 }
@@ -22,6 +22,8 @@ body {
     font-size: 20px;
     line-height: 1.2;
     color: var(--brand-color NAVY BLUE);
+    font-weight: 500px;
+    letter-spacing: normal;
 }
 
 .logo-first {
@@ -30,8 +32,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -40,12 +40,11 @@ body {
 
 .logo-second {
     color: #2E2F42;
-    text-decoration: none;
 }
 
 .addreess-link {
     font-style: normal;
-    color: var(--brand-color);   
+    color: var(--adress-colour);   
     text-decoration: none;
     list-style: none;
     line-height: 1.5;
@@ -53,20 +52,17 @@ body {
 
 .address-link {
     font-style: normal;
-    color: var(--brand-color);
+    color: var(--adress-colour);
     text-decoration: none;   
     list-style: none;
     line-height: 1.5;
 }
 
 .nav-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
-    font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    color: #2E2F42;
+    color: var(--second-color);
     text-decoration: none;
 }
 
@@ -78,38 +74,69 @@ body {
 }
 
 .hero-title {
-    color: var(--brand-color);
+    color: var(--main-color);
     font-size: 20px;
     line-height: 1.2;
 }
 
 .info-one {
-    font-size: 16px;
     line-height: 1.5;  
-    color: var(--brand-color #434455);
+    letter-spacing: normal;
+    color: #434455;   
 }
 
 .info-second {
-    font-size: 16px;
     line-height: 1.5;
-    color: var(--brand-color #434455);
+    letter-spacing: normal;
+    color: #434455;
 }
 
 .buttun {
     background: #4D5AE5;
     cursor: pointer;
+    color: var(--main-color);
 
 }
 
 button {
     cursor: pointer;
-    background: #F4F4FD;
+    background: var(--main-color);
 }
 
-.hero-title {
+.team-title {
    color: #2E2F42;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
 }
 
 .page-title {
-    color: #2E2F42;
+    background-color: #2E2F42;
+}
+
+.footer {
+    background: var(--second-color);   
+}
+
+.page-header {
+    color: var(--main-color);
+}
+
+li {
+    list-style-type: none;
+}
+
+.info-seconds {
+    color: var(--main-color);
+    line-height: 1.5;   
+}
+
+.team-mate {
+    background: #F4F4FD;   
+
+}
+
+.team {
+    background-color: #F4F4FD;
 }
