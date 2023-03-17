@@ -3,13 +3,15 @@
     --second-color: #2E2F42;
     --third-color: #4D5AE5;
     --fourth-color: #2E2F42;
-    --adress-colour: #434455;
+    --adress-colour: #434455; 
+    --white-color: #FFFFFF;
+    --team-color: #2E2F42;
 }
 
 body {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
-    background-color: #ffffff;
+    background-color: var(--white-color);
 }
 
 .list {
@@ -18,12 +20,13 @@ body {
 
 
 
-.option-title{
+.future-title{
     font-size: 20px;
     line-height: 1.2;
-    color: var(--brand-color NAVY BLUE);
-    font-weight: 500px;
-    letter-spacing: normal;
+    color: var(--third-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--fourth-color);
 }
 
 .logo-first {
@@ -39,15 +42,21 @@ body {
 }
 
 .logo-second {
-    color: #2E2F42;
+    color: var(--second-color);
+ 
 }
 
-.addreess-link {
+.addreess-link: {
     font-style: normal;
     color: var(--adress-colour);   
     text-decoration: none;
     list-style: none;
     line-height: 1.5;
+    
+}
+
+.addreess-link :hover {
+    color: var(--third-color);
 }
 
 .address-link {
@@ -58,12 +67,20 @@ body {
     line-height: 1.5;
 }
 
-.nav-link {
+.address-link :hover {
+    color: var(--third-color);
+}
+
+.nav-link  {
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: var(--second-color);
     text-decoration: none;
+}
+
+.nav-link :hover {
+    color: var(--third-color);
 }
 
 
@@ -74,21 +91,29 @@ body {
 }
 
 .hero-title {
-    color: var(--main-color);
-    font-size: 20px;
-    line-height: 1.2;
+    color: var(--white-color);
+    font-size: 56px;
+    line-height: 1.07;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
 }
 
 .info-one {
     line-height: 1.5;  
     letter-spacing: normal;
-    color: #434455;   
+    color: var(--adress-colour);   
 }
 
 .info-second {
     line-height: 1.5;
     letter-spacing: normal;
-    color: #434455;
+    color: var(--adress-colour);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;   
 }
 
 .buttun {
@@ -96,6 +121,10 @@ body {
     cursor: pointer;
     color: var(--main-color);
 
+}
+
+.buttun :hover {
+    color: OCEAN; 
 }
 
 button {
@@ -133,10 +162,28 @@ li {
 }
 
 .team-mate {
-    background: #F4F4FD;   
+    background: #F4F4FD;  
+    border-radius: 0px 0px 4px 4px;  
+    color: var(--team-color);
+}
 
+.team-title {
+    color: var(--team-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;   
 }
 
 .team {
     background-color: #F4F4FD;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;    
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;  
+    color: var(--fourth-color);  
 }
