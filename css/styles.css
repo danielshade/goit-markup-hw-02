@@ -23,7 +23,6 @@ body {
 .future-title{
     font-size: 20px;
     line-height: 1.2;
-    color: var(--third-color);
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--fourth-color);
@@ -42,8 +41,14 @@ body {
 }
 
 .logo-second {
-    color: var(--second-color);
+    color: var(--fourth-color);
  
+}
+
+.logo-seconds {
+    color: var(--white-color);
+    line-height: 1.16;
+    font-size: 18px;
 }
 
 .addreess-link: {
@@ -103,16 +108,13 @@ body {
 
 .info-one {
     line-height: 1.5;  
-    letter-spacing: normal;
+    letter-spacing: 0.02em;
     color: var(--adress-colour);   
 }
 
 .info-second {
-    line-height: 1.5;
     letter-spacing: normal;
     color: var(--adress-colour);
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;   
 }
 
@@ -157,8 +159,9 @@ li {
 }
 
 .info-seconds {
-    color: var(--main-color);
+    color: var(--white-color);
     line-height: 1.5;   
+    letter-spacing: 0.02em;
 }
 
 .team-mate {
@@ -172,6 +175,7 @@ li {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;   
+    letter-spacing: 0.02em;
 }
 
 .team {
@@ -179,7 +183,6 @@ li {
 }
 
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;    
     text-align: center;
